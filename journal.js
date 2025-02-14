@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   text: `${label} Mood`,
                 },
                 min: 0,
-                max: 14,
+                max: 12,
               },
             },
           },
