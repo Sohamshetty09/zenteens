@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+header {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;  /* Use flexbox to align the image and text horizontally */
+    align-items: center;  /* Vertically center the image and text */
+  }
+  
+  .site-logo {
+    width: 30px;  /* Adjust the size of the image */
+    height: 30px; /* Adjust the size of the image */
+    margin-right: 10px; /* Space between the image and text */
+  }
+  
+  .site-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c6e49;
+  }
+.status {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.main-image{
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c6e49;
+}
+
+h1 {
+    color: #000000;
+}
+
+.signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-btn:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    text-decoration: none; /* Optional: Remove the default underline */
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Style for each feature item */
+.feature-item {
+    width: calc(33.33% - 20px);  /* Each box takes up 33.33% of the row minus margin */
+    padding-top: 10px; /* This ensures the box is square by setting the height equal to the width */
+    margin: 10px;
+    background-color: #cbe8cb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 150px;  /* Ensure the box has a minimum height */
+    color: black;
+}
+
+.feature-item:hover{
+    background-color: #b2d4b2;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .feature-item {
+        width: calc(50% - 20px); /* Items take up 50% of the row on smaller screens */
+        padding-top: 50%; /* Keep them square */
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-item {
+        width: calc(100% - 20px); /* Items take up the full width on mobile screens */
+        padding-top: 100%; /* Keep them square */
+    }
+}
+
+footer {
+    color: #686666;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+  
+  .footer-section {
+    min-width: 150px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+  }
+  
+
+

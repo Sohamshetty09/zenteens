@@ -1,0 +1,22 @@
+
+.title{
+    text-align: left;
+    margin: 0px;
+}
+
+.intro{
+    text-align: justify;
+}
+
+.intro-container{
+    text-align: left;
+    background-color: rgb(222, 230, 222);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(159, 194, 159);
+}
+
+.detox-steps{
+    text-align: justify;
+    margin-top: 20px;
+}

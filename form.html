@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/form-styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="img/8171569.png" alt="Logo" class="site-logo" />
+      <a href="index.html"><h2 class="site-title">ZenTeens</h2></a>
+    </header>
+
+    <div class="status">#1 on Mental Web-apps</div>
+
+    <!-- Mood Tracker Form -->
+    <div class="form-container" style="margin-top: 30px">
+      <form>
+        <!-- Question 1 -->
+        <div class="question-section">
+          <label for="mood-rating">Are you able to sleep properly?</label><br/>
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-1"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question-section">
+          <label for="mood-rating">Have you been able to eat properly?</label
+          ><br />
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-2"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-section">
+          <label for="mood-rating"
+            >How frequently have you had little pleasure or interest in the
+            activities you usually enjoy?</label
+          ><br />
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-3"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-section">
+          <label for="mood-rating"
+            >How frequently have you been bothered by not being able to stop
+            worrying? </label
+          ><br />
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-4"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-section">
+          <label for="mood-rating"
+            >How confident you have been feeling in your capabilities
+            recently?</label
+          ><br />
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-5"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-section">
+          <label for="mood-rating"
+            >How often over the past few weeks have you felt the future was
+            bleak?</label
+          ><br />
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-6"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-section">
+          <label for="mood-rating"
+            >How ‘supported’ you feel by others around you – your friends,
+            family, or otherwise?</label
+          ><br />
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-7"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-section">
+          <label for="mood-rating"
+            >How frequently have you been doing things that mean something to
+            you or your life?</label
+          ><br />
+          <div class="slider-container">
+            <span class="slider-labels">Low</span>
+            <input
+              class="slider"
+              type="range"
+              id="mood-rating-8"
+              name="mood"
+              min="1"
+              max="10"
+              value="5"
+              style="flex: 1"
+            />
+            <span class="slider-labels">High</span>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button class="submit-btn" type="button" onclick="storeMoodData()">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Phone: +123 456 7890</p>
+          <p>Email: support@zenteens.com</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Branches</h4>
+          <p>New York, USA</p>
+          <p>London, UK</p>
+          <p>Tokyo, Japan</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Email</h4>
+          <p>info@zenteens.com</p>
+          <p>help@zenteens.com</p>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2024 ZenTeens</p>
+      </div>
+    </footer>
+  </body>
+</html>

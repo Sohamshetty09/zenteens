@@ -1,0 +1,17 @@
+
+  .chart-container {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items to next line */
+    gap: 20px; /* Space between charts */
+    justify-content: center; /* Center the charts horizontally */
+    padding: 10px;
+  }
+  
+  canvas {
+    flex: 1 1 calc(33.33% - 20px); /* 3 charts per row with a gap */
+    max-width: 600px; /* Max width for each chart */
+    height: 200px; /* Make height responsive based on width */
+  }
+  
+  
