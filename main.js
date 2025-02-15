@@ -57,7 +57,7 @@ function storeMoodData() {
     Date: getDate(),
     Time: getTime(), // Formatted timestamp
   };
-
+window.location.href = 'journal.html';
   // Retrieve existing mood data from localStorage
   let moodHistory = JSON.parse(localStorage.getItem("moodTracker")) || [];
 
