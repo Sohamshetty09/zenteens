@@ -16,7 +16,52 @@
   
     <h1>Wellness Blogs</h1>
  <img src="blogs.jpeg" class ="main-image" alt="Logo" />
-    <div class="blog-container">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .blog-card {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease;
+        }
+        .blog-card:hover {
+            transform: translateY(-10px);
+        }
+        .blog-card a {
+            text-decoration: none;
+            color: #2980b9;
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .blog-card p {
+            font-size: 0.95em;
+            line-height: 1.5;
+            color: #555;
+        }
+    </style> 
+  
+  <div class="blog-container">
         <div class="blog-card">
             <a href="https://www.acefitness.org/resources/pros/expert-articles/" target="_blank" rel="noopener noreferrer">Ace Fitness Blog</a>
             <p>The American Council on Exercise (ACE) has a blog that shares fitness articles on many wellness topics, including yoga, strength training, exercises for beginners, and other ways to lead a healthy lifestyle. ACE’s guidelines and recommendations provide a reputable foundation for all the articles.</p>
