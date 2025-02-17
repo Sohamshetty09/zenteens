@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
       createChart("BelongingChart", "Belonging", moodArray);
       createChart("ActivityChart", "Activity", moodArray);
     } else {
-      alert("Could not load any mood data.");
+      alert("Please fill the Mood Tracker quiz.");
     }
   } catch (e) {
     alert("Error parsing mood data.");
